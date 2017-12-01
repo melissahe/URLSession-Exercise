@@ -37,4 +37,3 @@ struct Character: Codable {
         case starshipURLs = "starships"
     }
 }
-

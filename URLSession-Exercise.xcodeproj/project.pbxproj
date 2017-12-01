@@ -15,6 +15,8 @@
 		8150A3491FD205F100761813 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150A3481FD205F100761813 /* Starship.swift */; };
 		8150A34B1FD2082C00761813 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150A34A1FD2082C00761813 /* Vehicle.swift */; };
 		8150A34D1FD2083C00761813 /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150A34C1FD2083C00761813 /* Species.swift */; };
+		8150A3501FD20C6800761813 /* CharacterAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150A34F1FD20C6800761813 /* CharacterAPIClient.swift */; };
+		8150A3521FD20C8800761813 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150A3511FD20C8800761813 /* NetworkHelper.swift */; };
 		81917FB81FD1FAFC00D64BE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81917FB71FD1FAFC00D64BE7 /* AppDelegate.swift */; };
 		81917FBA1FD1FAFC00D64BE7 /* StarWarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81917FB91FD1FAFC00D64BE7 /* StarWarsViewController.swift */; };
 		81917FBD1FD1FAFC00D64BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81917FBB1FD1FAFC00D64BE7 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 		8150A3481FD205F100761813 /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
 		8150A34A1FD2082C00761813 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		8150A34C1FD2083C00761813 /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		8150A34F1FD20C6800761813 /* CharacterAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterAPIClient.swift; sourceTree = "<group>"; };
+		8150A3511FD20C8800761813 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		81917FB41FD1FAFC00D64BE7 /* URLSession-Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "URLSession-Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81917FB71FD1FAFC00D64BE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81917FB91FD1FAFC00D64BE7 /* StarWarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				8150A3461FD2056700761813 /* ResultsWrapper.swift */,
-				8150A33F1FD1FFC700761813 /* Character.swift */,
+				8150A34E1FD20C5100761813 /* Character */,
 				8150A3431FD2041900761813 /* Film.swift */,
 				8150A3411FD202D900761813 /* Planet.swift */,
 				8150A34C1FD2083C00761813 /* Species.swift */,
@@ -89,6 +93,15 @@
 				8150A34A1FD2082C00761813 /* Vehicle.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		8150A34E1FD20C5100761813 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				8150A33F1FD1FFC700761813 /* Character.swift */,
+				8150A34F1FD20C6800761813 /* CharacterAPIClient.swift */,
+			);
+			name = Character;
 			sourceTree = "<group>";
 		};
 		81917FAB1FD1FAFB00D64BE7 = {
@@ -110,6 +123,7 @@
 		81917FB61FD1FAFC00D64BE7 /* URLSession-Exercise */ = {
 			isa = PBXGroup;
 			children = (
+				8150A3511FD20C8800761813 /* NetworkHelper.swift */,
 				8150A3371FD1FBE700761813 /* Unused Stuff */,
 				8150A33A1FD1FF2400761813 /* Models */,
 				8150A3391FD1FF1900761813 /* Views */,
@@ -196,6 +210,8 @@
 				8150A3401FD1FFC700761813 /* Character.swift in Sources */,
 				8150A3471FD2056700761813 /* ResultsWrapper.swift in Sources */,
 				8150A3441FD2041900761813 /* Film.swift in Sources */,
+				8150A3521FD20C8800761813 /* NetworkHelper.swift in Sources */,
+				8150A3501FD20C6800761813 /* CharacterAPIClient.swift in Sources */,
 				8150A34B1FD2082C00761813 /* Vehicle.swift in Sources */,
 				8150A3421FD202D900761813 /* Planet.swift in Sources */,
 				81917FB81FD1FAFC00D64BE7 /* AppDelegate.swift in Sources */,
