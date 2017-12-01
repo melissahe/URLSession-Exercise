@@ -17,6 +17,8 @@
 		8150A34D1FD2083C00761813 /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150A34C1FD2083C00761813 /* Species.swift */; };
 		8150A3501FD20C6800761813 /* CharacterAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150A34F1FD20C6800761813 /* CharacterAPIClient.swift */; };
 		8150A3521FD20C8800761813 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150A3511FD20C8800761813 /* NetworkHelper.swift */; };
+		8150A3541FD20EEB00761813 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150A3531FD20EEB00761813 /* AppError.swift */; };
+		8150A3571FD2119500761813 /* FilmAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150A3561FD2119500761813 /* FilmAPIClient.swift */; };
 		81917FB81FD1FAFC00D64BE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81917FB71FD1FAFC00D64BE7 /* AppDelegate.swift */; };
 		81917FBA1FD1FAFC00D64BE7 /* StarWarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81917FB91FD1FAFC00D64BE7 /* StarWarsViewController.swift */; };
 		81917FBD1FD1FAFC00D64BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81917FBB1FD1FAFC00D64BE7 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 		8150A34C1FD2083C00761813 /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
 		8150A34F1FD20C6800761813 /* CharacterAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterAPIClient.swift; sourceTree = "<group>"; };
 		8150A3511FD20C8800761813 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		8150A3531FD20EEB00761813 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		8150A3561FD2119500761813 /* FilmAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmAPIClient.swift; sourceTree = "<group>"; };
 		81917FB41FD1FAFC00D64BE7 /* URLSession-Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "URLSession-Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81917FB71FD1FAFC00D64BE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81917FB91FD1FAFC00D64BE7 /* StarWarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +90,7 @@
 			children = (
 				8150A3461FD2056700761813 /* ResultsWrapper.swift */,
 				8150A34E1FD20C5100761813 /* Character */,
-				8150A3431FD2041900761813 /* Film.swift */,
+				8150A3551FD2118000761813 /* Film */,
 				8150A3411FD202D900761813 /* Planet.swift */,
 				8150A34C1FD2083C00761813 /* Species.swift */,
 				8150A3481FD205F100761813 /* Starship.swift */,
@@ -102,6 +106,15 @@
 				8150A34F1FD20C6800761813 /* CharacterAPIClient.swift */,
 			);
 			name = Character;
+			sourceTree = "<group>";
+		};
+		8150A3551FD2118000761813 /* Film */ = {
+			isa = PBXGroup;
+			children = (
+				8150A3431FD2041900761813 /* Film.swift */,
+				8150A3561FD2119500761813 /* FilmAPIClient.swift */,
+			);
+			name = Film;
 			sourceTree = "<group>";
 		};
 		81917FAB1FD1FAFB00D64BE7 = {
@@ -124,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				8150A3511FD20C8800761813 /* NetworkHelper.swift */,
+				8150A3531FD20EEB00761813 /* AppError.swift */,
 				8150A3371FD1FBE700761813 /* Unused Stuff */,
 				8150A33A1FD1FF2400761813 /* Models */,
 				8150A3391FD1FF1900761813 /* Views */,
@@ -210,6 +224,8 @@
 				8150A3401FD1FFC700761813 /* Character.swift in Sources */,
 				8150A3471FD2056700761813 /* ResultsWrapper.swift in Sources */,
 				8150A3441FD2041900761813 /* Film.swift in Sources */,
+				8150A3541FD20EEB00761813 /* AppError.swift in Sources */,
+				8150A3571FD2119500761813 /* FilmAPIClient.swift in Sources */,
 				8150A3521FD20C8800761813 /* NetworkHelper.swift in Sources */,
 				8150A3501FD20C6800761813 /* CharacterAPIClient.swift in Sources */,
 				8150A34B1FD2082C00761813 /* Vehicle.swift in Sources */,
